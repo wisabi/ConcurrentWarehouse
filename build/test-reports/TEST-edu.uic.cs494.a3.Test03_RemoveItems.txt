@@ -1,0 +1,11 @@
+Testsuite: edu.uic.cs494.a3.Test03_RemoveItems
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 sec
+
+Testcase: testRemoveFromEmptyWarehouse took 0.006 sec
+Testcase: testRemoveItemNotInShelf took 0 sec
+Testcase: testRemoveFromWarehouse took 0.022 sec
+Testcase: testContentsRemoveFromEmptyShelf took 0.001 sec
+Testcase: testRemoveFromEmptyShelf took 0 sec
+Testcase: testContentsRemoveFromShelf took 0.001 sec
+Testcase: testRemoveFromShelf took 0.003 sec
+Testcase: testContenstsRemoveItemNotInShelf took 0.001 sec

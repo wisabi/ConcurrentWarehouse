@@ -1,0 +1,5 @@
+Testsuite: edu.uic.cs494.a3.Test06_Multithreaded
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 sec
+
+Testcase: testAdd took 0.089 sec
+Testcase: testRemove took 0.069 sec

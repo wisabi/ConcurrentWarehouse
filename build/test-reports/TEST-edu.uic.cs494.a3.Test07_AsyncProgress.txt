@@ -1,0 +1,21 @@
+Testsuite: edu.uic.cs494.a3.Test07_AsyncProgress
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.98 sec
+------------- Standard Output ---------------
+734644
+76592940
+484729389
+882047372
+1095600
+140544513
+612421
+42687710
+------------- ---------------- ---------------
+
+Testcase: asyncMoveItemsWithoutRunningThreads took 0.347 sec
+Testcase: asyncAddItemsWithoutRunningThreads took 0.126 sec
+Testcase: asyncAddItemsWithoutRunningThreadsThenWaitForCompletion took 0.079 sec
+Testcase: asyncGetContentsWithoutRunningThreadsThenWaitForCompletion took 1.369 sec
+Testcase: asyncRemoveItemsWithoutRunningThreadsThenWaitForCompletion took 0.143 sec
+Testcase: asyncGetContentsWithoutRunningThreads took 0.885 sec
+Testcase: asyncRemoveItemsWithoutRunningThreads took 0.877 sec
+Testcase: asyncMoveItemsWithoutRunningThreadsThenWaitForCompletion took 0.044 sec

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="wisamArch" name="edu.uic.cs494.a3.Test01_AddItems" skipped="0" tests="3" time="0.141" timestamp="2020-04-18T18:49:02">
+  <properties>
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="11" />
+    <property name="ant.project.name" value="CS494 S20 Assignment 3" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="jar.dir" value="build/jar" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="user.timezone" value="" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk/lib" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test01_AddItems skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test01_AddItems.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test01_AddItems.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher891507942032417690.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit16057322352340750179.properties" />
+    <property name="test.classes.dir" value="build/test-classes" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="test.dir" value="test" />
+    <property name="user.home" value="/home/wisam" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2019-10-15" />
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk" />
+    <property name="hamcrest.jar" value="lib/hamcrest-2.1.jar" />
+    <property name="basedir" value="/home/wisam/CS494/cs494-s20-a3-wisabi" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="11" />
+    <property name="ant.file.type.CS494 S20 Assignment 3" value="file" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="11.0.5+10" />
+    <property name="user.name" value="wisam" />
+    <property name="junit.jar" value="lib/junit-4.12.jar" />
+    <property name="ant.file" value="/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="5.2.11-arch1-1-ARCH" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="report.dir" value="build/test-reports" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="build.dir" value="build" />
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.version" value="11.0.5" />
+    <property name="user.dir" value="/home/wisam/CS494/cs494-s20-a3-wisabi" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.CS494 S20 Assignment 3" value="/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.7 compiled on September 10 2019" />
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="11.0.5+10" />
+    <property name="classes.dir" value="build/classes" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="55.0" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.default-target" value="test" />
+  </properties>
+  <testcase classname="edu.uic.cs494.a3.Test01_AddItems" name="testItemAlreadyInShelf" time="0.029" />
+  <testcase classname="edu.uic.cs494.a3.Test01_AddItems" name="testMaxCapacity" time="0.001" />
+  <testcase classname="edu.uic.cs494.a3.Test01_AddItems" name="testItemIdentity" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,1583 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Unit Test Results.</title>
+        <style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+        <script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['edu.uic.cs494.a3.Test01_AddItems'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.CS494 S20 Assignment 3'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.CS494 S20 Assignment 3'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '11';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'CS494 S20 Assignment 3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.7 compiled on September 10 2019';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['hamcrest.jar'] = 'lib/hamcrest-2.1.jar';
+    
+        cur['jar.dir'] = 'build/jar';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '55.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-11-openjdk';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '11.0.5+10';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '11';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.java.com/bugreport/';
+    
+        cur['java.version'] = '11.0.5';
+    
+        cur['java.version.date'] = '2019-10-15';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '11';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '11.0.5+10';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.jar'] = 'lib/junit-4.12.jar';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '5.2.11-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = 'build/test-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-11-openjdk/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test01_AddItems skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test01_AddItems.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test01_AddItems.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher891507942032417690.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit16057322352340750179.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['test.classes.dir'] = 'build/test-classes';
+    
+        cur['test.dir'] = 'test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['user.home'] = '/home/wisam';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'wisam';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['edu.uic.cs494.a3.Test02_GetContentsShelf'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.CS494 S20 Assignment 3'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.CS494 S20 Assignment 3'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '11';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'CS494 S20 Assignment 3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.7 compiled on September 10 2019';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['hamcrest.jar'] = 'lib/hamcrest-2.1.jar';
+    
+        cur['jar.dir'] = 'build/jar';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '55.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-11-openjdk';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '11.0.5+10';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '11';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.java.com/bugreport/';
+    
+        cur['java.version'] = '11.0.5';
+    
+        cur['java.version.date'] = '2019-10-15';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '11';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '11.0.5+10';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.jar'] = 'lib/junit-4.12.jar';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '5.2.11-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = 'build/test-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-11-openjdk/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test02_GetContentsShelf skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test02_GetContentsShelf.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test02_GetContentsShelf.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher3770962018410012805.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit10626408522352019147.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['test.classes.dir'] = 'build/test-classes';
+    
+        cur['test.dir'] = 'test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['user.home'] = '/home/wisam';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'wisam';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['edu.uic.cs494.a3.Test03_RemoveItems'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.CS494 S20 Assignment 3'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.CS494 S20 Assignment 3'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '11';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'CS494 S20 Assignment 3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.7 compiled on September 10 2019';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['hamcrest.jar'] = 'lib/hamcrest-2.1.jar';
+    
+        cur['jar.dir'] = 'build/jar';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '55.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-11-openjdk';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '11.0.5+10';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '11';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.java.com/bugreport/';
+    
+        cur['java.version'] = '11.0.5';
+    
+        cur['java.version.date'] = '2019-10-15';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '11';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '11.0.5+10';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.jar'] = 'lib/junit-4.12.jar';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '5.2.11-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = 'build/test-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-11-openjdk/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test03_RemoveItems skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test03_RemoveItems.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test03_RemoveItems.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher5379475466110232686.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit4970949691334358835.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['test.classes.dir'] = 'build/test-classes';
+    
+        cur['test.dir'] = 'test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['user.home'] = '/home/wisam';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'wisam';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['edu.uic.cs494.a3.Test04_GetWarehouseContents'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.CS494 S20 Assignment 3'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.CS494 S20 Assignment 3'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '11';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'CS494 S20 Assignment 3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.7 compiled on September 10 2019';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['hamcrest.jar'] = 'lib/hamcrest-2.1.jar';
+    
+        cur['jar.dir'] = 'build/jar';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '55.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-11-openjdk';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '11.0.5+10';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '11';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.java.com/bugreport/';
+    
+        cur['java.version'] = '11.0.5';
+    
+        cur['java.version.date'] = '2019-10-15';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '11';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '11.0.5+10';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.jar'] = 'lib/junit-4.12.jar';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '5.2.11-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = 'build/test-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-11-openjdk/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test04_GetWarehouseContents skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test04_GetWarehouseContents.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test04_GetWarehouseContents.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher7119090187361120031.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit3208108182268213275.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['test.classes.dir'] = 'build/test-classes';
+    
+        cur['test.dir'] = 'test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['user.home'] = '/home/wisam';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'wisam';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['edu.uic.cs494.a3.Test05_MoveSimple'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.CS494 S20 Assignment 3'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.CS494 S20 Assignment 3'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '11';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'CS494 S20 Assignment 3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.7 compiled on September 10 2019';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['hamcrest.jar'] = 'lib/hamcrest-2.1.jar';
+    
+        cur['jar.dir'] = 'build/jar';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '55.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-11-openjdk';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '11.0.5+10';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '11';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.java.com/bugreport/';
+    
+        cur['java.version'] = '11.0.5';
+    
+        cur['java.version.date'] = '2019-10-15';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '11';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '11.0.5+10';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.jar'] = 'lib/junit-4.12.jar';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '5.2.11-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = 'build/test-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-11-openjdk/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test05_MoveSimple skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test05_MoveSimple.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test05_MoveSimple.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher3881598223107768208.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit13371730717403378077.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['test.classes.dir'] = 'build/test-classes';
+    
+        cur['test.dir'] = 'test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['user.home'] = '/home/wisam';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'wisam';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['edu.uic.cs494.a3.Test06_Multithreaded'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.CS494 S20 Assignment 3'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.CS494 S20 Assignment 3'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '11';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'CS494 S20 Assignment 3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.7 compiled on September 10 2019';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['hamcrest.jar'] = 'lib/hamcrest-2.1.jar';
+    
+        cur['jar.dir'] = 'build/jar';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '55.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-11-openjdk';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '11.0.5+10';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '11';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.java.com/bugreport/';
+    
+        cur['java.version'] = '11.0.5';
+    
+        cur['java.version.date'] = '2019-10-15';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '11';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '11.0.5+10';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.jar'] = 'lib/junit-4.12.jar';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '5.2.11-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = 'build/test-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-11-openjdk/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test06_Multithreaded skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test06_Multithreaded.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test06_Multithreaded.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher11002948061482646137.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit5800985141893730303.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['test.classes.dir'] = 'build/test-classes';
+    
+        cur['test.dir'] = 'test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['user.home'] = '/home/wisam';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'wisam';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['edu.uic.cs494.a3.Test07_AsyncProgress'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.CS494 S20 Assignment 3'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.CS494 S20 Assignment 3'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '11';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'CS494 S20 Assignment 3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.7 compiled on September 10 2019';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['hamcrest.jar'] = 'lib/hamcrest-2.1.jar';
+    
+        cur['jar.dir'] = 'build/jar';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '55.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-11-openjdk';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '11.0.5+10';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '11';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.java.com/bugreport/';
+    
+        cur['java.version'] = '11.0.5';
+    
+        cur['java.version.date'] = '2019-10-15';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '11';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '11.0.5+10';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.jar'] = 'lib/junit-4.12.jar';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '5.2.11-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = 'build/test-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-11-openjdk/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test07_AsyncProgress skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test07_AsyncProgress.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test07_AsyncProgress.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher369478754181419381.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit2509794409131037754.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['test.classes.dir'] = 'build/test-classes';
+    
+        cur['test.dir'] = 'test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['user.home'] = '/home/wisam';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'wisam';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['edu.uic.cs494.a3.Test08_MoveComplex'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.CS494 S20 Assignment 3'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.CS494 S20 Assignment 3'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '11';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'test';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'CS494 S20 Assignment 3';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.7 compiled on September 10 2019';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['classes.dir'] = 'build/classes';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['hamcrest.jar'] = 'lib/hamcrest-2.1.jar';
+    
+        cur['jar.dir'] = 'build/jar';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/wisam/CS494/cs494-s20-a3-wisabi/build/classes:/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-classes:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/junit-4.12.jar:/home/wisam/CS494/cs494-s20-a3-wisabi/lib/hamcrest-2.1.jar:/usr/share/java/ant/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '55.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-11-openjdk';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '11.0.5+10';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '11';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.java.com/bugreport/';
+    
+        cur['java.version'] = '11.0.5';
+    
+        cur['java.version.date'] = '2019-10-15';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '11';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '11.0.5+10';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['junit.jar'] = 'lib/junit-4.12.jar';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '5.2.11-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = 'build/test-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-11-openjdk/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner edu.uic.cs494.a3.Test08_MoveComplex skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test08_MoveComplex.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/wisam/CS494/cs494-s20-a3-wisabi/build/test-reports/TEST-edu.uic.cs494.a3.Test08_MoveComplex.xml crashfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junitvmwatcher5952425910156734925.properties propsfile=/home/wisam/CS494/cs494-s20-a3-wisabi/junit15407502685040981189.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['test.classes.dir'] = 'build/test-classes';
+    
+        cur['test.dir'] = 'test';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/wisam/CS494/cs494-s20-a3-wisabi';
+    
+        cur['user.home'] = '/home/wisam';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'wisam';
+    
+        cur['user.timezone'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+    </head>
+    <body>
+        <a name="top"></a>
+        <h1>Unit Test Results.</h1>
+        <table width="100%">
+            <tr>
+                <td align="left"></td><td align="right">Designed for use with <a href="https://www.junit.org">JUnit</a> and <a href="https://ant.apache.org/ant">Ant</a>.</td>
+            </tr>
+        </table>
+        <hr size="1">
+        <h2>Summary</h2>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Tests</th><th>Failures</th><th>Errors</th><th>Skipped</th><th>Success rate</th><th>Time</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>44</td><td>0</td><td>0</td><td>0</td><td>100.00%</td><td>9.151</td>
+            </tr>
+        </table>
+        <table border="0" width="95%">
+            <tr>
+                <td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+            </tr>
+        </table>
+        <hr size="1" width="95%" align="left">
+        <h2>Packages</h2>
+                Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#edu.uic.cs494.a3">edu.uic.cs494.a3</a></td><td>44</td><td>0</td><td>0</td><td>0</td><td>9.151</td><td>2020-04-18T18:49:02</td><td>wisamArch</td>
+            </tr>
+        </table>
+        <hr size="1" width="95%" align="left">
+        <a name="edu.uic.cs494.a3"></a>
+        <h3>Package edu.uic.cs494.a3</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#Test01_AddItems">Test01_AddItems</a></td><td>3</td><td>0</td><td>0</td><td>0</td><td>0.141</td><td>2020-04-18T18:49:02</td><td>wisamArch</td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#Test02_GetContentsShelf">Test02_GetContentsShelf</a></td><td>4</td><td>0</td><td>0</td><td>0</td><td>0.127</td><td>2020-04-18T18:49:02</td><td>wisamArch</td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#Test03_RemoveItems">Test03_RemoveItems</a></td><td>8</td><td>0</td><td>0</td><td>0</td><td>0.136</td><td>2020-04-18T18:49:03</td><td>wisamArch</td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#Test04_GetWarehouseContents">Test04_GetWarehouseContents</a></td><td>10</td><td>0</td><td>0</td><td>0</td><td>0.140</td><td>2020-04-18T18:49:03</td><td>wisamArch</td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#Test05_MoveSimple">Test05_MoveSimple</a></td><td>4</td><td>0</td><td>0</td><td>0</td><td>1.588</td><td>2020-04-18T18:49:03</td><td>wisamArch</td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#Test06_Multithreaded">Test06_Multithreaded</a></td><td>2</td><td>0</td><td>0</td><td>0</td><td>0.280</td><td>2020-04-18T18:49:05</td><td>wisamArch</td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#Test07_AsyncProgress">Test07_AsyncProgress</a></td><td>8</td><td>0</td><td>0</td><td>0</td><td>3.980</td><td>2020-04-18T18:49:06</td><td>wisamArch</td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#Test08_MoveComplex">Test08_MoveComplex</a></td><td>5</td><td>0</td><td>0</td><td>0</td><td>2.759</td><td>2020-04-18T18:49:10</td><td>wisamArch</td>
+            </tr>
+        </table>
+        <a href="#top">Back to top</a>
+        <p></p>
+        <p></p>
+        <hr size="1" width="95%" align="left">
+        <a name="Test01_AddItems"></a>
+        <h3>TestCase Test01_AddItems</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testItemAlreadyInShelf</td><td>Success</td><td></td><td>0.029</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testMaxCapacity</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testItemIdentity</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('edu.uic.cs494.a3.Test01_AddItems');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="Test02_GetContentsShelf"></a>
+        <h3>TestCase Test02_GetContentsShelf</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testCapacitySameDescription</td><td>Success</td><td></td><td>0.019</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testCapacityDuplicatedItem</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testUsingOwnSet</td><td>Success</td><td></td><td>0.002</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testCapacityAdd</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('edu.uic.cs494.a3.Test02_GetContentsShelf');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="Test03_RemoveItems"></a>
+        <h3>TestCase Test03_RemoveItems</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveFromEmptyWarehouse</td><td>Success</td><td></td><td>0.007</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveItemNotInShelf</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveFromWarehouse</td><td>Success</td><td></td><td>0.022</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testContentsRemoveFromEmptyShelf</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveFromEmptyShelf</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testContentsRemoveFromShelf</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveFromShelf</td><td>Success</td><td></td><td>0.003</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testContenstsRemoveItemNotInShelf</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('edu.uic.cs494.a3.Test03_RemoveItems');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="Test04_GetWarehouseContents"></a>
+        <h3>TestCase Test04_GetWarehouseContents</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testCapacitySameDescription</td><td>Success</td><td></td><td>0.015</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveItemNotInShelf</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testCapacityDuplicatedItem</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testContentsRemoveFromEmptyShelf</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testUsingOwnSet</td><td>Success</td><td></td><td>0.003</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveFromEmptyShelf</td><td>Success</td><td></td><td>0.007</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testContentsRemoveFromShelf</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testCapacityAdd</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveFromShelf</td><td>Success</td><td></td><td>0.003</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testContenstsRemoveItemNotInShelf</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('edu.uic.cs494.a3.Test04_GetWarehouseContents');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="Test05_MoveSimple"></a>
+        <h3>TestCase Test05_MoveSimple</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testDeadlokcingMove</td><td>Success</td><td></td><td>1.459</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>moveItemToFullShelf</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>moveItemToEmptyShelf</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>moveItemFromEmptyShelf</td><td>Success</td><td></td><td>0.002</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('edu.uic.cs494.a3.Test05_MoveSimple');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="Test06_Multithreaded"></a>
+        <h3>TestCase Test06_Multithreaded</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testAdd</td><td>Success</td><td></td><td>0.091</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemove</td><td>Success</td><td></td><td>0.069</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('edu.uic.cs494.a3.Test06_Multithreaded');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="Test07_AsyncProgress"></a>
+        <h3>TestCase Test07_AsyncProgress</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>asyncMoveItemsWithoutRunningThreads</td><td>Success</td><td></td><td>0.348</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>asyncAddItemsWithoutRunningThreads</td><td>Success</td><td></td><td>0.126</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>asyncAddItemsWithoutRunningThreadsThenWaitForCompletion</td><td>Success</td><td></td><td>0.079</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>asyncGetContentsWithoutRunningThreadsThenWaitForCompletion</td><td>Success</td><td></td><td>1.369</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>asyncRemoveItemsWithoutRunningThreadsThenWaitForCompletion</td><td>Success</td><td></td><td>0.143</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>asyncGetContentsWithoutRunningThreads</td><td>Success</td><td></td><td>0.885</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>asyncRemoveItemsWithoutRunningThreads</td><td>Success</td><td></td><td>0.878</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>asyncMoveItemsWithoutRunningThreadsThenWaitForCompletion</td><td>Success</td><td></td><td>0.044</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('edu.uic.cs494.a3.Test07_AsyncProgress');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="Test08_MoveComplex"></a>
+        <h3>TestCase Test08_MoveComplex</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testAddMove</td><td>Success</td><td></td><td>0.630</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testMove</td><td>Success</td><td></td><td>0.102</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testRemoveMove</td><td>Success</td><td></td><td>1.931</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>moveItemToEmptyShelf</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testNoRoomInDestination</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('edu.uic.cs494.a3.Test08_MoveComplex');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a>
+    </body>
+</html>
